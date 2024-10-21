@@ -1,0 +1,198 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: cyan;
+    border-radius: 10px;
+    box-shadow: 2px 2px;
+    color: chocolate;
+    
+    
+}
+
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    
+    
+    
+}
+.home span a{
+    color: navy;
+}
+
+.details a{
+    text-decoration: none;
+    color: navy;
+}
+
+.safe a{
+    text-decoration: none;
+    color: white;
+    color: navy;
+}
+
+.home a{
+    text-decoration: none;
+    color: white;
+}
+
+.backimage{
+    background-image: url(Image/safe\ driver1..jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+.seamless{
+    text-align: center;
+    font-size: 35px;
+}
+.search-box{
+    display: flex;
+    margin-top: 20px;
+}
+
+.search-box input[type="search"]{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+}
+
+.search-box button{
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.search-box button:hover{
+    background-color: #45a049;
+}
+
+.portion{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 20px;
+}
+
+.part1{
+    padding-bottom: 10px;
+    
+    
+}
+
+.box{
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    gap: 10px;
+
+    
+    
+}
+
+.text{
+    color: chocolate;
+}
+
+.txt1{
+    color: black;
+}
+.footer{
+    background-color: black;
+}
+
+.footer-content{
+    display: flex;
+    margin-right: 10px;
+    
+    
+    
+}
+
+.footer-right{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    padding-left: 35%;
+    padding-right: 35px;
+    margin-top: 25px;
+    
+   
+}
+.footer-left a{
+    text-decoration: none;
+}
+
+.footer-right1 a{
+    text-decoration: none;
+    
+}
+
+.selling-route{
+    text-align: center;
+    font-size: 35px;
+    color: chocolate;
+
+}
+
+.route {
+    display: flex;
+    gap: 20px;
+    margin-left: 35%;
+  }
+  
+  .route a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .route div {
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    /*background-color: #f9f9f9; /* Card background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect for card */
+    /*border: 1px solid #ddd; /* Optional: Light border */
+    transition: transform 0.3s ease; /* Adds smooth transition */
+  }
+  
+  .route div:hover {
+    transform: translateY(-5px); /* Adds lift on hover */
+  }
+
+  .box i{
+    color: black
+  }
+
+  #state{
+    border: none;
+  }
+
+
+
+  
